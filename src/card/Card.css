@@ -1,0 +1,61 @@
+
+.display-card {
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    justify-content: space-around;
+}
+
+.display-card:hover {
+    box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    padding: 30px;
+}
+
+.winner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.winner img {
+    width: 80px;
+    height: 48px;
+    margin: 0 0 0 30px;
+}
+
+.cadidate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cadidate img {
+    width: 40px;
+    height: 24px;
+    margin: 0 0 15px 30px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #333333;
+}
+
+.display-card h1 {
+    margin: 0;
+}
+
+.tdp {
+    background-color: #ffd000;
+}
+.ycp {
+    background-color: #006effe1;
+}
+.js {
+    background-color: #ff0202e3;
+}
+
